@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Services from "./components/Services";
+import Project from "./components/Project";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -13,6 +14,7 @@ function App() {
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <Intro />
           <Services />
+          <Project />
         </div>
       </div>
     </main>

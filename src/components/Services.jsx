@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className="pb-16">
       <div className="w-full max-w-5xl mx-auto text-center">
-        <h3 className="text-2xl md:text-3xl mb-1 md:mb-5 dark:text-gray-100 capitalize font-semibold">Services I offer</h3>
+        <h3 className="text-2xl md:text-3xl mb-1 md:mb-6 dark:text-gray-100 capitalize font-semibold">Services I offer</h3>
         <p className=" text-md md:text-lg mb-1.5 leading-7  text-gray-600 dark:text-gray-400">
           Lorem, ipsum dolor sit amet consectetur molestias quis,{" "}
           <span className="text-blue-600">biodata</span> error corrupti officia
