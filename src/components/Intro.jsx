@@ -8,7 +8,7 @@ import ProfileImage from "../images/profile-icon.png";
 
 const Intro = () => {
   return (
-    <>
+    <div className="pb-16">
       <div className="text-center p-6">
         <h2 className="text-3xl font-medium py-2 text-blue-500 font-serif md:text-4xl md:py-4  ">
           Rajender Kumar
@@ -33,7 +33,7 @@ const Intro = () => {
           alt="ProfileImage"
         />
       </div>
-    </>
+    </div>
   );
 };
 
