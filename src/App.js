@@ -1,8 +1,15 @@
+import { useState } from "react";
+import Navbar from "./components/Navbar";
+
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <>
-      <h1>Initial Setup</h1>
-    </>
+    <main className={darkMode ? "dark" : ""}>
+      <div className="px-7 bg-white dark:bg-gray-900">
+        <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+      </div>
+    </main>
   );
 }
 
